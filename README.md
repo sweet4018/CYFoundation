@@ -55,5 +55,8 @@
   let modelName = UIDevice.modelName
   ```
   
+* UIFont
+  * systemFont(forTextStyle:compatibleWith:sizeMultiplier:sizeDelta:weight:)
+  
 * UILabel
   * height(withWidth:)
