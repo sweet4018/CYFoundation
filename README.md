@@ -7,6 +7,9 @@
   * set(value:at:)
   * setting(value:at:)
   * uniqued()
+
+* NSObject
+  * shortName
    
 * String
   * subscript(i:)
@@ -32,12 +35,12 @@
   * init(hexRGB:alpha:)
   * init(hexRGB:)
   * init(hexRGBA:)
- 
-* UILabel
-  * height(withWidth:)
 
 * UIDevice
   * modelName
   ```swift
   let modelName = UIDevice.modelName
   ```
+  
+* UILabel
+  * height(withWidth:)
