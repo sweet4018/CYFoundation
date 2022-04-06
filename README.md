@@ -33,3 +33,5 @@
   * init(hexRGB:)
   * init(hexRGBA:)
  
+* UILabel
+  * height(withWidth:)
