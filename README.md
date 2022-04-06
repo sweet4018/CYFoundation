@@ -27,3 +27,9 @@
   cardNumber.insert(separator: " ", every: 4)
   print(cardNumber) // 1234 5678 9012 3456
   ```
+  
+* UIColor
+  * init(hexRGB:alpha:)
+  * init(hexRGB:)
+  * init(hexRGBA:)
+ 
