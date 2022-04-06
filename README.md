@@ -35,3 +35,9 @@
  
 * UILabel
   * height(withWidth:)
+
+* UIDevice
+  * modelName
+  ```swift
+  let modelName = UIDevice.modelName
+  ```
