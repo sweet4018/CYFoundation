@@ -8,6 +8,19 @@
   * setting(value:at:)
   * uniqued()
 
+* NSMutableAttributedString
+  * appendImage(_:alignments:)
+  
+  you can do this ⬇️
+  ```swift
+  let attributedText = NSMutableAttributedString(string: "銀行帳號：235332666666")
+  let font = UIFont.systemFont(forTextStyle: .callout)
+  let image = UIImage(named: "copy")
+  attributedText.appendImage(image, alignments: .alignCenterToSingleLine(font: font))
+  yourLabel.attributedText = attributedText
+  ```
+  ![GITHUB]( https://serving.photos.photobox.com/10807783d23326ec86763b587bc502e330941ed258e5aed2c6aefee69c12dffd2be598c6.jpg "NSMutableAttributedString")
+
 * NSObject
   * shortName
    
